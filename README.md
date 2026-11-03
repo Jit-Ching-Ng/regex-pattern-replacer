@@ -2,19 +2,15 @@
 
 Upload a CSV or Excel file, describe a pattern in plain English (“find email addresses”), and the app asks an LLM to write the regex. You can preview the result, adjust it, and replace the matches across the text columns. It is built with **Django + Django REST Framework** and **React (Vite)**.
 
-**Live demo:** `https://<your-app>.onrender.com` <!-- TODO: replace with the deployed URL -->
+**Live demo:** `https://pattern-replace.onrender.com` 
 
 ## Demo video
 
-<!--
-  To embed the video: edit this README on github.com, drag the .mp4 file into the
-  editor below this comment, and GitHub inserts a https://github.com/user-attachments/... link
-  that renders as an inline player.
--->
 
 _Video goes here._
 
-![Screenshot](docs/screenshot.png)
+https://github.com/user-attachments/assets/e41858f8-4c62-42c2-a31e-fb88713d2c83
+
 
 ---
 
