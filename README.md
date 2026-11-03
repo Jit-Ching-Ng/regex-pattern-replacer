@@ -7,8 +7,6 @@ Upload a CSV or Excel file, describe a pattern in plain English (“find email a
 ## Demo video
 
 
-_Video goes here._
-
 https://github.com/user-attachments/assets/e41858f8-4c62-42c2-a31e-fb88713d2c83
 
 
