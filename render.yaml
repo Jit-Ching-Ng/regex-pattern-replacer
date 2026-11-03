@@ -1,0 +1,21 @@
+# Render Blueprint: one Docker web service serving both the API and the React app.
+# New > Blueprint > pick this repo, then fill in LLM_API_KEY when prompted.
+services:
+  - type: web
+    name: pattern-replace
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health/
+    envVars:
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: DJANGO_DEBUG
+        value: "false"
+      - key: LLM_PROVIDER
+        value: anthropic
+      - key: LLM_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        value: ""
+      - key: MAX_UPLOAD_SIZE_MB
+        value: "50"
